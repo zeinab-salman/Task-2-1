@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.div2 {
+
+
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 20px;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.blue {
+    background-color: #0279ff;
+    padding: 10px;
+    margin: 4px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.out {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+
+
+
+#img {
+
+
+
+    border-radius: 10rem;
+
+}
+
+.div2 h2 {
+    color: rgb(71, 70, 70);
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+.div2 h2::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 15%;
+    background-color: rgb(149, 148, 148);
+    width: 15px;
+    height: 20px;
+
+
+}
+
+a {
+
+    color: inherit;
+    text-decoration: none;
+
+
+}
+
+.ww img {
+
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.hero h2,
+h1 {
+
+    color: rgb(37, 36, 36);
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.hero img {
+    margin-bottom: 10px;
+}
+
+.info,
+.ww {
+    border-bottom: 2px solid gray;
+    padding: 20px;
+
+}
+
+.w {
+    padding: 20px;
+}
+
+.blue-icon {
+    color: blue;
+
+
+}
+
+.follow {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
